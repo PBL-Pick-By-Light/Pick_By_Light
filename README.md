@@ -48,16 +48,16 @@ If you're new to the concept, check out [this](https://docs.github.com/en/pull-r
 
 **You have discovered a bug or have an idea for a new feature?**
 
-You can add your new Issue [here](https://github.com/PBL-Pick-By-Light/Pick_By_Light/issues).
+You can add a new Issue [here](https://github.com/PBL-Pick-By-Light/Pick_By_Light/issues).
 
 
 **When changes are made, check if other repositories are affected!**
 
 Example:
-In the backend repo, the attribute name in User entity is changed to username.
+In the backend repo, the attribute `name` in User entity is changed to `username`.
 Because this affects the frontend, one should check the frontend repo before commiting the changes.
 
-**Build instructions** can be found in the README files if the repos.
+**Build instructions** can be found in the README files of the repos.
 
 ## Licensing
 
