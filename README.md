@@ -3,7 +3,7 @@
 Different architectonical elements of the Pick By Light project are stored in different repositories.
 So to help you find what you need, here is a list of repos with their contents.
 
-A description an diagrams about how the components work with each other can be found in the [Proces Diagrams](./docs/diagrams.md) file.
+A description and diagrams about how the components work with each other can be found in the [Proces Diagrams](./docs/diagrams.md) file.
 
 ### [Backend](https://github.com/PBL-Pick-By-Light/BE-Backend)
 
