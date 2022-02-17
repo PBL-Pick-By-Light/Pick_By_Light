@@ -22,21 +22,23 @@ The graphical user interface allows the user to interact with the system and sen
 
 From a technical point of view, the frontend is realized with vue and vuetify and is running in a nginx docker container. The different components are presented on individual pages.
 
+View the [documentation](https://github.com/PBL-Pick-By-Light/FE-Frontend/tree/main/docs/Readme.md).
+
 ### Embedded Systems
 
 Everything you need to physically build the project and code for low-level servers.
 
 #### [Hardware Design](https://github.com/PBL-Pick-By-Light/ES-hardware-design)
 Files for 3D-printing and explainations on how to upgrade your shelves using LEDs.
+[Dokumentation](https://github.com/PBL-Pick-By-Light/ES-hardware-design/tree/main/docs)
 
 #### [HTTP to MQTT](https://github.com/PBL-Pick-By-Light/ES-HttpToMqtt)
 Code for a server that translates HTTP-Requests and sends corresponding MQTT messages to the ESP32s.
+[Dokumentation](https://github.com/PBL-Pick-By-Light/ES-HttpToMqtt/tree/main/docs)
 
 #### [Firmware](https://github.com/PBL-Pick-By-Light/ES-ESP32-firmware)
 Firmware of the ESP32s, which receive the MQTT messages and control the LEDs.
-
-#### [ES Documentation](https://github.com/PBL-Pick-By-Light/ES-Wiki-and-Documentation)
-Further infos on the embedded systems part of the project.
+[Documentation](https://github.com/PBL-Pick-By-Light/ES-ESP32-firmware/tree/main/docs)
 
 ## Contributing
 
