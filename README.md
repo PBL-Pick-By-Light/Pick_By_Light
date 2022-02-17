@@ -3,7 +3,8 @@
 Different architectonical elements of the Pick By Light project are stored in different repositories.
 So to help you find what you need, here is a list of repos with their contents.
 
-A description and diagrams about how the components work with each other can be found in the [Proces Diagrams](./docs/diagrams.md) file.
+A description and diagrams about how the components work with each other can be found in the [Process Diagrams](./docs/diagrams.md) file.
+
 
 ### [Backend](https://github.com/PBL-Pick-By-Light/BE-Backend)
 
@@ -17,6 +18,8 @@ The [backend repo](https://github.com/PBL-Pick-By-Light/BE-Backend) contains cod
   You can also start by reading the backend [documentation](https://github.com/PBL-Pick-By-Light/BE-Backend/tree/main/docs).
 
 ### [Frontend](https://github.com/PBL-Pick-By-Light/FE-Frontend)
+
+#### [ShowCaseVideo](https://www.youtube.com/watch?v=lhqZF4q3zyY)
 
 The graphical user interface allows the user to interact with the system and sends requests to the backend and embedded system. A login system ensures that only authorized users can use the system. The desired parts are selected via a search mask and displayed via the further connection. Extended setting options are available to the administrator. Parts and shelfs can be created and managed.
 
