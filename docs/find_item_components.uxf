@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>8</zoom_level>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>240</x>
+      <y>64</y>
+      <w>32</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>FE
+bg=red</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>728</x>
+      <y>616</y>
+      <w>32</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>BE
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>336</x>
+      <y>64</y>
+      <w>32</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>EM
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>224</x>
+      <y>168</y>
+      <w>32</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>FE
+bg=red</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>248</x>
+      <y>168</y>
+      <w>144</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+login()</panel_attributes>
+    <additional_attributes>160.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>376</x>
+      <y>168</y>
+      <w>32</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>BE
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>232</x>
+      <y>192</y>
+      <w>224</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+
+register()</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0;260.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>448</x>
+      <y>168</y>
+      <w>48</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+yes</panel_attributes>
+    <additional_attributes>40.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>200</x>
+      <y>128</y>
+      <w>368</w>
+      <h>128</h>
+    </coordinates>
+    <panel_attributes>login
+valign=top</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>232</x>
+      <y>464</y>
+      <w>32</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>FE
+bg=red</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>392</x>
+      <y>464</y>
+      <w>112</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+labels[]</panel_attributes>
+    <additional_attributes>120.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>256</x>
+      <y>464</y>
+      <w>128</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+getAllLabels()
+</panel_attributes>
+    <additional_attributes>140.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>368</x>
+      <y>464</y>
+      <w>32</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>BE
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>488</x>
+      <y>464</y>
+      <w>32</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>FE
+bg=red</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>200</x>
+      <y>408</y>
+      <w>360</w>
+      <h>128</h>
+    </coordinates>
+    <panel_attributes>get all labels
+valign=top</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>512</x>
+      <y>464</y>
+      <w>144</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+findItemsByLabels()</panel_attributes>
+    <additional_attributes>160.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>640</x>
+      <y>464</y>
+      <w>32</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>BE
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>728</x>
+      <y>464</y>
+      <w>32</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>FE
+bg=red</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>664</x>
+      <y>464</y>
+      <w>80</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+Items[]</panel_attributes>
+    <additional_attributes>80.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>736</x>
+      <y>488</y>
+      <w>64</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+turnOn()</panel_attributes>
+    <additional_attributes>10.0;160.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>568</x>
+      <y>408</y>
+      <w>224</w>
+      <h>128</h>
+    </coordinates>
+    <panel_attributes>find item
+valign=top</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>632</x>
+      <y>616</y>
+      <w>112</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+turnOn()</panel_attributes>
+    <additional_attributes>10.0;20.0;120.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>288</x>
+      <y>64</y>
+      <w>32</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>BE
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>608</x>
+      <y>616</y>
+      <w>32</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>EM
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>512</x>
+      <y>616</y>
+      <w>32</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>type=decision</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>568</x>
+      <y>544</y>
+      <w>224</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>turnOn Light
+valign=top</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>424</x>
+      <y>584</y>
+      <w>104</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+yes
+turnOff()</panel_attributes>
+    <additional_attributes>10.0;20.0;90.0;20.0;110.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>424</x>
+      <y>624</y>
+      <w>104</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+no</panel_attributes>
+    <additional_attributes>10.0;50.0;110.0;50.0;110.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>400</x>
+      <y>584</y>
+      <w>32</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>EM
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>400</x>
+      <y>648</y>
+      <w>32</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>FE
+bg=red</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>336</x>
+      <y>648</y>
+      <w>80</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+turnOff()</panel_attributes>
+    <additional_attributes>10.0;20.0;80.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>312</x>
+      <y>648</y>
+      <w>32</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>BE
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>240</x>
+      <y>648</y>
+      <w>88</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+turnOff()</panel_attributes>
+    <additional_attributes>10.0;20.0;90.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>216</x>
+      <y>648</y>
+      <w>32</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>EM
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>200</x>
+      <y>544</y>
+      <w>360</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>turnOff Light
+valign=top</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>232</x>
+      <y>296</y>
+      <w>32</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>FE
+bg=red</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>256</x>
+      <y>296</y>
+      <w>88</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+logout()</panel_attributes>
+    <additional_attributes>90.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>328</x>
+      <y>296</y>
+      <w>32</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>BE
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>352</x>
+      <y>296</y>
+      <w>136</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+logout()</panel_attributes>
+    <additional_attributes>150.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>200</x>
+      <y>264</y>
+      <w>368</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>logout
+valign=top</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>424</x>
+      <y>168</y>
+      <w>32</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>type=decision</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>400</x>
+      <y>176</y>
+      <w>40</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>30.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>424</x>
+      <y>136</y>
+      <w>56</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>user exists?
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>504</x>
+      <y>584</y>
+      <w>56</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>durationTime?
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>432</x>
+      <y>192</y>
+      <w>32</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>lt=-
+no</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>480</x>
+      <y>168</y>
+      <w>80</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>User logged in</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>472</x>
+      <y>296</y>
+      <w>88</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>User logged out</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>8</x>
+      <y>128</y>
+      <w>192</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>login:
+To use the app, an user has to login.
+The login fails if the user doesn't
+exist in LDAP or in the database.
+In this case the user has to register.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>8</x>
+      <y>264</y>
+      <w>192</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>logout:
+To stop the session the user
+can logout from the system.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>536</x>
+      <y>624</y>
+      <w>88</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;90.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>800</x>
+      <y>408</y>
+      <w>184</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>The main function of the app is
+to find an item in a shelf. 
+To make it easier to find the item
+the position of the item in the shelf
+lights up.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>800</x>
+      <y>496</y>
+      <w>248</w>
+      <h>192</h>
+    </coordinates>
+    <panel_attributes>Workflow:
+--
+get all labels:
+At first the user gets all labels to select
+required labels.
+--
+find item:
+The user finds the item with the selected labels.
+--
+turn on light:
+To make it easier to find the item.
+The position of the item lights up.
+--
+turn off light:
+When the duration time is past or
+the user wants to turn off the light,
+the LED is turned off.</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
