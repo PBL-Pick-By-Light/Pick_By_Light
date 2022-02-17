@@ -3,6 +3,8 @@
 Different architectonical elements of the Pick By Light project are stored in different repositories.
 So to help you find what you need, here is a list of repos with their contents.
 
+A description and diagrams about how the components work with each other can be found in the [Proces Diagrams](./docs/diagrams.md) file.
+
 ### [Backend](https://github.com/PBL-Pick-By-Light/BE-Backend)
 
 The [backend repo](https://github.com/PBL-Pick-By-Light/BE-Backend) contains code for a server with
@@ -11,7 +13,8 @@ The [backend repo](https://github.com/PBL-Pick-By-Light/BE-Backend) contains cod
 - controllers
 - http-Tests
 - docker
-  You can also start by reading the [documentation](https://git.thm.de/softwaretechnik-projekt-pick-by-light-system-wise21_22/pbl-backend/pbl-backend/-/wikis/home).
+
+  You can also start by reading the backend [documentation](https://git.thm.de/softwaretechnik-projekt-pick-by-light-system-wise21_22/pbl-backend/pbl-backend/-/wikis/home).
 
 ### [Frontend](https://github.com/PBL-Pick-By-Light/FE-Frontend)
 
