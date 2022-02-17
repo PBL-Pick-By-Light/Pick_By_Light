@@ -30,11 +30,11 @@ Everything you need to physically build the project and code for low-level serve
 
 #### [Hardware Design](https://github.com/PBL-Pick-By-Light/ES-hardware-design)
 Files for 3D-printing and explainations on how to upgrade your shelves using LEDs.
-[Dokumentation](https://github.com/PBL-Pick-By-Light/ES-hardware-design/tree/main/docs)
+[Documentation](https://github.com/PBL-Pick-By-Light/ES-hardware-design/tree/main/docs)
 
 #### [HTTP to MQTT](https://github.com/PBL-Pick-By-Light/ES-HttpToMqtt)
 Code for a server that translates HTTP-Requests and sends corresponding MQTT messages to the ESP32s.
-[Dokumentation](https://github.com/PBL-Pick-By-Light/ES-HttpToMqtt/tree/main/docs)
+[Documentation](https://github.com/PBL-Pick-By-Light/ES-HttpToMqtt/tree/main/docs)
 
 #### [Firmware](https://github.com/PBL-Pick-By-Light/ES-ESP32-firmware)
 Firmware of the ESP32s, which receive the MQTT messages and control the LEDs.
