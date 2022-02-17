@@ -15,9 +15,9 @@ The [backend repo](https://github.com/PBL-Pick-By-Light/BE-Backend) contains cod
 
 ### [Frontend](https://github.com/PBL-Pick-By-Light/FE-Frontend)
 
-All the GUIs!
-[This repo](https://github.com/PBL-Pick-By-Light/FE-Frontend) contains the code for a webapplication to comfortably send requests to backend and embedded systems. There are pages for login, search results, viewing items, options…
-Of course there is also [documentation](https://github.com/PBL-Pick-By-Light/FE-Wiki-and-Documentation) for all these files.
+The graphical user interface allows the user to interact with the system and sends requests to the backend and embedded system. A login system ensures that only authorized users can use the system. The desired parts are selected via a search mask and displayed via the further connection. Extended setting options are available to the administrator. Parts and shelfs can be created and managed.
+
+From a technical point of view, the frontend is realized with vue and vuetify and is running in a nginx docker container. The different components are presented on individual pages.
 
 ### Embedded Systems
 
