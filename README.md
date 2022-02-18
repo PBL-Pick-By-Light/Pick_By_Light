@@ -25,7 +25,7 @@ The graphical user interface allows the user to interact with the system and sen
 
 From a technical point of view, the frontend is realized with vue and vuetify and is running in a nginx docker container. The different components are presented on individual pages.
 
-View the [documentation](https://github.com/PBL-Pick-By-Light/FE-Frontend/tree/main/docs/Readme.md).
+View the [documentation](https://github.com/PBL-Pick-By-Light/FE-Frontend/tree/main/docs/README.md).
 
 ### Embedded Systems
 
